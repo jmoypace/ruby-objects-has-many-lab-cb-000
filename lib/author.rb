@@ -8,6 +8,9 @@ end
 def add_post
 
 end
+def add_post_by_title
+
+end
 
 def posts
   @posts
