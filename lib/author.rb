@@ -9,7 +9,7 @@ def self.all
     @@all
   end
 def add_post(post)
-  post.title=self
+  post.author=self
 end
 
 def add_post_by_title(title)
