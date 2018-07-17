@@ -14,12 +14,12 @@ end
 
 def add_post_by_title(title)
 post=Post.new(title)
-post.title=self
+post.author=self
 end
 
 
 def posts
-Post.all.select {|post| title.author == self}
+Post.all.select {|post| post.author == self}
 end
 
 def self.post_count
